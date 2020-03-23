@@ -26,6 +26,7 @@ public class ContractService {
 	
 	private Date addMonths(Date date, int n) {
 		Calendar cal = Calendar.getInstance();
+		
 		cal.setTime(date);
 		cal.add(Calendar.MONTH, n);
 		return cal.getTime();
